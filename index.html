@@ -88,6 +88,16 @@
       height: 90vh;
       border: none;
     }
+
+    /* Ocultar el menú lateral al imprimir */
+    @media print {
+      .sidebar {
+        display: none;
+      }
+      .content {
+        margin-left: 0; /* Ajustar el contenido a pantalla completa al imprimir */
+      }
+    }
   </style>
 </head>
 <body>
