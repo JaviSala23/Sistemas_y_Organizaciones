@@ -1,177 +1,63 @@
-# ✨ Planificación de la Cátedra: Sistemas y Organizaciones ✨
+<h1 align="center" style="font-size: 2.5em; color: #2c3e50;">✨ Sistemas y Organizaciones ✨</h1>
 
-Este repositorio contiene el material de estudio y planificación para la cátedra **Sistemas y Organizaciones**. Cada unidad incluye temas principales, recursos adicionales y bibliografía recomendada. ☎✨
+<p align="center" style="font-size: 1.2em; color: #34495e;">
+  Un espacio para explorar, aprender y compartir conocimientos sobre sistemas en informática y organizaciones.
+</p>
 
----
+<hr style="border: 1px solid #2c3e50; width: 80%;">
 
-## 📖 Unidad 1: Introducción a los Sistemas
+<h2 style="color: #2980b9;">🎓 Sobre el Profesor</h2>
+<p style="font-size: 1.1em; line-height: 1.6; color: #2c3e50;">
+  Mi nombre es <strong>Javier Sala</strong>, soy Analista de Sistemas con más de <strong>15 años de experiencia</strong> como docente en la carrera de Técnico Superior en Desarrollo de Software.
+  Actualmente, imparto clases en el <strong>Instituto Superior Bernardo Houssay - Anexo Cruz Alta</strong>. 
+  Este repositorio nace con el propósito de ayudar a mis alumnos y otros interesados en la materia de 
+  <strong>Sistemas y Organizaciones</strong>.
+</p>
 
-### **Objetivos de Aprendizaje**
-- Comprender los sistemas como una herramienta fundamental para modelar y analizar problemas organizacionales e informáticos.
-- Explorar conceptos clave como sinergia y recursividad aplicados a sistemas de software y organizaciones.
-- Conocer la evolución del pensamiento sistémico y su impacto en la informática.
+<hr style="border: 1px solid #2c3e50; width: 80%;">
 
----
+<h2 style="color: #27ae60;">📚 Objetivo del Repositorio</h2>
+<p style="font-size: 1.1em; line-height: 1.6; color: #2c3e50;">
+  Este espacio busca crear un <strong>apunte integral</strong> para la materia, apoyado en obras clave como:
+  <ul style="list-style-type: disc; margin-left: 20px;">
+    <li><em>La Teoría General de Sistemas</em> de Ángel A. Sarabia.</li>
+    <li><em>Thinking in Systems</em> de Donella Meadows.</li>
+  </ul>
+  Aquí encontrarás apuntes, videos explicativos y ejercicios prácticos para desarrollar un pensamiento sistémico.
+</p>
 
-### **Temario Detallado**
+<hr style="border: 1px solid #2c3e50; width: 80%;">
 
-#### **1. Los Sistemas como una Percepción de la Realidad**
-- Definición y características principales de un sistema.
-- Ejemplos cotidianos aplicados a entornos de software y organizaciones (sistemas de gestión, sistemas de información).
-- Importancia de modelar sistemas para resolver problemas complejos.
+<h2 style="color: #e67e22;">🔗 Contenido del Repositorio</h2>
+<p style="font-size: 1.1em; color: #2c3e50;">Navega por las unidades temáticas:</p>
+<ul style="font-size: 1.1em; color: #34495e; line-height: 1.8;">
+  <li><a href="./Unidad1/" style="color: #2980b9; text-decoration: none;">Unidad 1: Introducción a los Sistemas</a></li>
+  <li><a href="./Unidad2/" style="color: #2980b9; text-decoration: none;">Unidad 2: La Mecánica Racional y el Paradigma Cartesiano</a></li>
+  <li><a href="./Unidad3/" style="color: #2980b9; text-decoration: none;">Unidad 3: Creando Sistemas</a></li>
+  <li><a href="./Unidad4/" style="color: #2980b9; text-decoration: none;">Unidad 4: Clasificación de los Sistemas</a></li>
+  <li><a href="./Unidad5/" style="color: #2980b9; text-decoration: none;">Unidad 5: Del Paradigma Cartesiano al Sistemático</a></li>
+  <li><a href="./Unidad6/" style="color: #2980b9; text-decoration: none;">Unidad 6: El Paradigma Sistemático</a></li>
+  <li><a href="./Unidad7/" style="color: #2980b9; text-decoration: none;">Unidad 7: El Proceso de Modelización Sistemática</a></li>
+  <li><a href="./Unidad8/" style="color: #2980b9; text-decoration: none;">Unidad 8: Análisis Sistemático, Simulación y Diseño</a></li>
+  <li><a href="./Unidad9/" style="color: #2980b9; text-decoration: none;">Unidad 9: Aplicación de los Conceptos de Sistemas en Organizaciones</a></li>
+</ul>
 
-#### **2. Concepto de Sistemas**
-- Sistemas Naturales vs. Sistemas Artificiales.
-- Componentes principales: Entradas, Procesos, Salidas y Retroalimentación.
-- Ejemplos prácticos:
-  - Un sistema de control de inventarios.
-  - Sistemas de autenticación en aplicaciones.
+<hr style="border: 1px solid #2c3e50; width: 80%;">
 
-#### **3. Sinergia**
-- Definición: El todo es mayor que la suma de sus partes.
-- Aplicaciones en equipos de desarrollo de software (trabajo colaborativo en proyectos ágiles).
-- Ejemplo práctico:
-  - Sinergia en microservicios: Comunicación entre servicios para una funcionalidad completa.
+<h2 style="color: #8e44ad;">🛠️ Colaboraciones y Contacto</h2>
+<p style="font-size: 1.1em; line-height: 1.6; color: #2c3e50;">
+  Este proyecto está en constante crecimiento. Si tienes sugerencias o deseas colaborar, puedes:
+</p>
+<ul style="font-size: 1.1em; color: #2c3e50;">
+  <li>Abrir un <a href="https://github.com/usuario/repositorio/issues" style="color: #2980b9; text-decoration: none;">issue</a>.</li>
+  <li>Enviar un <a href="https://github.com/usuario/repositorio/pulls" style="color: #2980b9; text-decoration: none;">pull request</a>.</li>
+</ul>
 
-#### **4. Recursividad**
-- Concepto: Un sistema que contiene sistemas similares dentro de sí mismo.
-- Ejemplos en software:
-  - Algoritmos recursivos (p. ej., búsqueda binaria, recorrido en árboles).
-  - Diseño de sistemas jerárquicos (sistemas operativos, arquitecturas en capas).
+<hr style="border: 1px solid #2c3e50; width: 80%;">
 
-#### **5. Un Poco de Historia**
-- Pioneros del pensamiento sistémico:
-  - Ludwig von Bertalanffy y la Teoría General de Sistemas.
-  - Norbert Wiener y la Cibernética.
-- Impacto en la informática: Desde sistemas de control hasta la inteligencia artificial.
+<p align="center" style="color: #34495e; font-size: 1.1em;">
+  Hecho con ❤️ para mis alumnos y entusiastas de los sistemas.<br>
+  <i>"Entender los sistemas es clave para resolver problemas complejos".</i>
+</p>
 
----
-
-### **Recursos Adicionales**
-
-#### **Lecturas Recomendadas**
-- **Teoría General de Sistemas** - Ludwig von Bertalanffy (Capítulos 1 y 2).
-- **Thinking in Systems** - Donella Meadows.
-- **Introduction to Cybernetics** - Norbert Wiener.
-
-#### **Videos**
-- [¿Qué es un sistema? - Introducción básica para informáticos (YouTube)](https://example.com).
-- [Historia del pensamiento sistémico aplicado a la informática (YouTube)](https://example.com).
-- [Modelado de sistemas en organizaciones y software (YouTube)](https://example.com).
-
-#### **Recursos Digitales**
-- [Herramienta para modelado de sistemas: Causal Loop Diagram Tool](https://www.example.com).
-- [Simulaciones en software: AnyLogic o Vensim](https://www.example.com).
-
----
-
-### **Actividades y Ejercicios**
-
-1. **Análisis de Sistemas en la Vida Cotidiana**:
-   - Identifica tres sistemas en una organización tecnológica (p. ej., un sistema CRM, sistema de nómina, sistema de autenticación).
-   - Describe sus componentes: Entradas, Procesos, Salidas, y cómo interactúan.
-
-2. **Ejercicio de Sinergia**:
-   - Diseña un sistema de software colaborativo (p. ej., una aplicación que conecta varios servicios REST).
-   - Explica cómo se genera sinergia entre los componentes del sistema.
-
-3. **Recursividad en Algoritmos**:
-   - Implementa un algoritmo recursivo en Python (p. ej., cálculo de factorial, Fibonacci o recorrido en árbol binario).
-   - Explica cómo este concepto puede reflejarse en sistemas organizacionales.
-
----
-
-### **Preguntas para Reflexión**
-- ¿Cómo influye el concepto de sinergia en el desarrollo de equipos de software?
-- ¿De qué manera la recursividad permite diseñar sistemas más eficientes en informática y organizaciones?
-- ¿Qué beneficios aporta el pensamiento sistémico al análisis y resolución de problemas complejos?
-
----
-
-## 🔬 Unidad 2: La Mecánica Racional, El Paradigma Cartesiano
-- **Temas:**
-  - 🔹 Modelos Mentales
-  - 🔹 El Discurso del Método
-  - 🔹 Mecánica Racional
-  - 🔹 Pensamiento en Círculos
-  - 🔹 El Determinismo
-
----
-
-## 🌐 Unidad 3: Creando Sistemas
-- **Temas:**
-  - 🏢 **Sistemas Cerrados:**
-    - Cadena de Markov
-    - Entropía
-    - Negentropía
-  - 🏢 **Sistemas Abiertos:**
-    - Principio de Equifinalidad
-    - Diferencias entre Sistemas Abiertos y Cerrados
-    - Sistemas Abiertos en la Naturaleza
-    - Sistema Presa-Depredador
-
----
-
-## 🔄 Unidad 4: Clasificación de los Sistemas
-- **Temas:**
-  - 🔹 Clasificación según la Enciclopedia Británica
-  - 🔹 Clasificación según Boulding
-
----
-
-## 🔠 Unidad 5: Del Paradigma Cartesiano al Sistemático
-- **Temas:**
-  - ✨ Estructura y Función
-  - ✨ Estructura y Mecanización
-  - ✨ Mecánica Estadística
-  - ✨ Paradigma Estructuralista: Evolución-Estructura-Función
-  - ✨ Cibernética y Homeostasis
-  - ✨ Paradigma Cibernético
-  - ✨ Cajas Negras
-  - ✨ Entorno
-
----
-
-## 🌍 Unidad 6: El Paradigma Sistemático
-- **Temas:**
-  - Sistemas Generalizados
-  - Aspecto Funcional y Análisis de la Estructura
-  - Principio de Inconmensurabilidad
-  - Sistema de Representación
-
----
-
-## 💡 Unidad 7: El Proceso de Modelización Sistemática
-- **Temas:**
-  - Concepto de Procesos
-  - Procesador y Flujo
-  - Mutación o Catástrofe
-  - Aplicación de la Sinergia
-  - Estados, Espacio de Estados, Trayectorias o Programas
-  - Convertir Sistemas Complicados a Complejos
-
----
-
-## 🔬 Unidad 8: Análisis Sistemático, Simulación y Diseño
-- **Temas:**
-  - Conceptos de Simulación y Diseño
-
----
-
-## 🏦 Unidad 9: Aplicación de los Conceptos de Sistemas en Organizaciones
-- **Temas:**
-  - Las Organizaciones Como Sistemas
-  - Objetivos y Metas
-  - Distribución de Funciones
-
----
-
-### 🔗 Recursos
-- **Bibliografía Recomendad:** Por definir.
-- **Documentos PDF:** Se incluirán.
-- **Videos Explicativos:** Links próximamente.
-
----
-
-🏆 **Contribuciones:** Bienvenidos a colaborar en el desarrollo de contenido o sugerir materiales extra para enriquecer esta planificación.
 
