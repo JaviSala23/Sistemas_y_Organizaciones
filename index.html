@@ -16,7 +16,7 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 300px; /* Aumenta el ancho del menú */
+      width: 300px; /* Ancho del menú */
       background: linear-gradient(180deg, #5f77a1, #9db6d6); /* Degradado pastel */
       color: white;
       padding-top: 20px;
@@ -29,31 +29,39 @@
       color: #ffffff;
       margin-bottom: 20px;
     }
-    .sidebar a {
-      color: #ffffff !important;
-      text-decoration: none;
-      display: block;
-      padding: 12px 20px; /* Más espacio alrededor del texto */
-      border-radius: 5px;
-      margin: 5px 0;
-      font-size: 1.1em; /* Aumenta el tamaño de la fuente */
-      transition: background 0.3s ease;
+    .accordion-button {
+      background-color: transparent;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.1em;
+      text-align: left;
     }
-    .sidebar a:hover {
+    .accordion-button:hover {
       background-color: #4e637d;
     }
-    .dropdown-menu {
+    .accordion-button:focus {
+      box-shadow: none;
+    }
+    .accordion-item {
+      background-color: transparent;
+      border: none;
+    }
+    .accordion-body {
+      padding: 0;
       background-color: #5f77a1;
     }
-    .dropdown-menu a {
-      color: #ffffff !important;
-      font-size: 1em;
+    .accordion-body a {
+      display: block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
     }
-    .dropdown-menu a:hover {
+    .accordion-body a:hover {
       background-color: #4e637d;
     }
     .content {
-      margin-left: 300px; /* Ajusta el contenido al nuevo ancho del menú */
+      margin-left: 300px; /* Ajusta el contenido al ancho del menú */
       padding: 20px;
       background-color: #ffffff;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -64,10 +72,6 @@
       height: 90vh;
       border: none;
     }
-    h1 {
-      font-size: 2.5em;
-      color: #5f77a1;
-    }
   </style>
 </head>
 <body>
@@ -75,39 +79,50 @@
   <div class="sidebar">
     <h2>Sistemas y Organizaciones</h2>
     <a href="README.html" target="content-frame">Inicio</a>
-    <div class="dropdown">
-      <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Unidad 1: Introducción a los Sistemas</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="Apuntes/Unidad1_IntroduccionSistemas/1_guia.html" target="content-frame">Guía</a></li>
-        <li><a class="dropdown-item" href="Apuntes/Unidad1_IntroduccionSistemas/subunidad1a.html" target="content-frame">Subunidad 1a</a></li>
-        <li><a class="dropdown-item" href="Apuntes/Unidad1_IntroduccionSistemas/subunidad1b.html" target="content-frame">Subunidad 1b</a></li>
-      </ul>
-    </div>
-    <div class="dropdown">
-      <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Unidad 2: La Mecánica Racional</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="Apuntes/Unidad2_MecanicaRacional/guia.html" target="content-frame">Guía</a></li>
-        <li><a class="dropdown-item" href="Apuntes/Unidad2_MecanicaRacional/subunidad2a.html" target="content-frame">Subunidad 2a</a></li>
-      </ul>
-    </div>
-    <div class="dropdown">
-      <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Unidad 3: Creando Sistemas</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="Apuntes/Unidad3_CreandoSistemas/guia.html" target="content-frame">Guía</a></li>
-        <li><a class="dropdown-item" href="Apuntes/Unidad3_CreandoSistemas/subunidad3a.html" target="content-frame">Subunidad 3a</a></li>
-      </ul>
-    </div>
-    <div class="dropdown">
-      <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Unidad 4: Clasificación de los Sistemas</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="Apuntes/Unidad4_ClasificacionSistemas/guia.html" target="content-frame">Guía</a></li>
-      </ul>
-    </div>
-    <div class="dropdown">
-      <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Unidad 5: Paradigma Sistemático</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="Apuntes/Unidad5_ParadigmaSistemico/guia.html" target="content-frame">Guía</a></li>
-      </ul>
+    <div class="accordion" id="accordionMenu">
+      <!-- Unidad 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Unidad 1: Introducción a los Sistemas
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionMenu">
+          <div class="accordion-body">
+            <a href="Apuntes/Unidad1_IntroduccionSistemas/1_guia.html" target="content-frame">Guía</a>
+            <a href="Apuntes/Unidad1_IntroduccionSistemas/subunidad1a.html" target="content-frame">Subunidad 1a</a>
+            <a href="Apuntes/Unidad1_IntroduccionSistemas/subunidad1b.html" target="content-frame">Subunidad 1b</a>
+          </div>
+        </div>
+      </div>
+      <!-- Unidad 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Unidad 2: La Mecánica Racional
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionMenu">
+          <div class="accordion-body">
+            <a href="Apuntes/Unidad2_MecanicaRacional/guia.html" target="content-frame">Guía</a>
+            <a href="Apuntes/Unidad2_MecanicaRacional/subunidad2a.html" target="content-frame">Subunidad 2a</a>
+          </div>
+        </div>
+      </div>
+      <!-- Unidad 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Unidad 3: Creando Sistemas
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionMenu">
+          <div class="accordion-body">
+            <a href="Apuntes/Unidad3_CreandoSistemas/guia.html" target="content-frame">Guía</a>
+            <a href="Apuntes/Unidad3_CreandoSistemas/subunidad3a.html" target="content-frame">Subunidad 3a</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
