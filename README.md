@@ -31,7 +31,7 @@
 <h2 style="color: #e67e22;">🔗 Contenido del Repositorio</h2>
 <p style="font-size: 1.1em; color: #2c3e50;">Navega por las unidades temáticas:</p>
 <ul style="font-size: 1.1em; color: #34495e; line-height: 1.8;">
-  <li><a href="./Unidad1/" style="color: #2980b9; text-decoration: none;">Unidad 1: Introducción a los Sistemas</a></li>
+  <li><a href="Apuntes/🔰 Unidad 1_ Introducción a los Sistemas/" style="color: #2980b9; text-decoration: none;">Unidad 1: Introducción a los Sistemas</a></li>
   <li><a href="./Unidad2/" style="color: #2980b9; text-decoration: none;">Unidad 2: La Mecánica Racional y el Paradigma Cartesiano</a></li>
   <li><a href="./Unidad3/" style="color: #2980b9; text-decoration: none;">Unidad 3: Creando Sistemas</a></li>
   <li><a href="./Unidad4/" style="color: #2980b9; text-decoration: none;">Unidad 4: Clasificación de los Sistemas</a></li>
