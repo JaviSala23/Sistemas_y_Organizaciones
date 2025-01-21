@@ -7,101 +7,49 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <style>
     body {
-      font-family: 'Arial', sans-serif;
+      font-family: Arial, sans-serif;
       background-color: #f8f9fa;
-      color: #343a40;
     }
-    h1 {
-      color: #2c3e50;
-    }
-    .section-title {
-      color: #2980b9;
-    }
-    .footer {
+    nav {
       background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-      margin-top: 20px;
     }
-    a {
-      color: #2980b9;
+    nav a {
+      color: white !important;
       text-decoration: none;
     }
-    a:hover {
+    nav a:hover {
       text-decoration: underline;
+    }
+    iframe {
+      width: 100%;
+      height: 90vh;
+      border: none;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <!-- Header -->
-    <header class="text-center my-4">
-      <h1>✨ Sistemas y Organizaciones ✨</h1>
-      <p class="lead">Un espacio para aprender y profundizar en el pensamiento sistémico aplicado a la informática y las organizaciones.</p>
-    </header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sistemas y Organizaciones</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+           <li class="nav-item"><a class="nav-link" href="README.md" target="content-frame">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="Apuntes/Unidad1_IntroduccionSistemas/README.md" target="content-frame">Unidad 1</a></li>
+          <li class="nav-item"><a class="nav-link" href="Apuntes/Unidad2_MecanicaRacional/README.md" target="content-frame">Unidad 2</a></li>
+          <li class="nav-item"><a class="nav-link" href="Apuntes/Unidad3_CreandoSistemas/README.md" target="content-frame">Unidad 3</a></li>
+          <li class="nav-item"><a class="nav-link" href="Apuntes/Unidad4_ClasificacionSistemas/README.md" target="content-frame">Unidad 4</a></li>
+          <li class="nav-item"><a class="nav-link" href="Apuntes/Unidad5_ParadigmaSistemico/README.md" target="content-frame">Unidad 5</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- About Section -->
-    <section class="mb-5">
-      <h2 class="section-title">🎓 Sobre el Profesor</h2>
-      <p>
-        Mi nombre es <strong>Javier Sala</strong>. Soy Analista de Sistemas y llevo más de 15 años enseñando 
-        en la carrera de Técnico Superior en Desarrollo de Software en el 
-        <strong>Instituto Superior Bernardo Houssay - Anexo Cruz Alta</strong>. 
-        Este sitio tiene como objetivo ayudar a mis alumnos y cualquier interesado en el área de 
-        <strong>Sistemas y Organizaciones</strong>.
-      </p>
-    </section>
-
-    <!-- Objectives -->
-    <section class="mb-5">
-      <h2 class="section-title">📚 Objetivo del Repositorio</h2>
-      <p>
-        Este repositorio busca crear un apunte integral para la materia, complementado con:
-      </p>
-      <ul>
-        <li>Material teórico basado en obras clave como:
-          <ul>
-            <li><em>La Teoría General de Sistemas</em> de Ángel A. Sarabia</li>
-            <li><em>Thinking in Systems</em> de Donella Meadows</li>
-          </ul>
-        </li>
-        <li>Videos explicativos</li>
-        <li>Ejercicios prácticos</li>
-      </ul>
-    </section>
-
-    <!-- Navigation -->
-    <section class="mb-5">
-      <h2 class="section-title">🔗 Contenido del Repositorio</h2>
-      <p>Accede a las unidades temáticas:</p>
-      <ul>
-        <li><a href="Apuntes/Unidad1_IntroduccionSistemas/">Unidad 1: Introducción a los Sistemas</a></li>
-        <li><a href="Apuntes/Unidad2_MecanicaRacional/">Unidad 2: La Mecánica Racional y el Paradigma Cartesiano</a></li>
-        <li><a href="Apuntes/Unidad3_CreandoSistemas/">Unidad 3: Creando Sistemas</a></li>
-        <li><a href="Apuntes/Unidad4_ClasificacionSistemas/">Unidad 4: Clasificación de los Sistemas</a></li>
-        <li><a href="Apuntes/Unidad5_ParadigmaSistemico/">Unidad 5: Del Paradigma Cartesiano al Sistemático</a></li>
-      </ul>
-    </section>
-
-    <!-- Collaboration -->
-    <section class="mb-5">
-      <h2 class="section-title">🛠️ Colaboraciones</h2>
-      <p>
-        Este proyecto está en constante crecimiento. Si deseas contribuir con ideas, material o correcciones, 
-        no dudes en abrir un <a href="https://github.com/usuario/repositorio/issues">issue</a> o enviar un 
-        <a href="https://github.com/usuario/repositorio/pulls">pull request</a>.
-      </p>
-    </section>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>
-      Creado para mis alumnos y entusiastas de los sistemas.<br>
-      <i>"Los sistemas no solo resuelven problemas, también abren caminos hacia soluciones innovadoras".</i>
-    </p>
-  </footer>
+  <!-- Content Frame -->
+  <iframe name="content-frame" src="README.md"></iframe>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
