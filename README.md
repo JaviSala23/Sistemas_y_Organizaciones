@@ -56,8 +56,7 @@
 <hr style="border: 1px solid #2c3e50; width: 80%;">
 
 <p align="center" style="color: #34495e; font-size: 1.1em;">
-  Hecho con ❤️ para mis alumnos y entusiastas de los sistemas.<br>
-  <i>"Entender los sistemas es clave para resolver problemas complejos".</i>
+  Creado para guiar y apoyar a los estudiantes en el entendimiento de los sistemas y sus aplicaciones.<br>
+  <i>"Los sistemas no solo resuelven problemas, también abren caminos hacia soluciones innovadoras".</i>
 </p>
-
 
