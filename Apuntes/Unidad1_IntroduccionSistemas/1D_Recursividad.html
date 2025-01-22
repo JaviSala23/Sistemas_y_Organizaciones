@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidad 1D: Recursividad</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #2c3e50;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #34495e;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    pre {
+      background-color: #e8f0fe;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔃 Recursividad</h1>
+
+    <section>
+      <h2>✨ Introducción</h2>
+      <p>La <strong>recursividad</strong> es un concepto que describe sistemas o procesos que contienen subsistemas similares dentro de sí mismos. En esencia, es un patrón en el que la estructura general se repite a diferentes niveles de análisis. Este principio es especialmente relevante en matemáticas, programación y análisis organizacional, donde se observan jerarquías y patrones replicados en diferentes escalas.</p>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>🔍 ¿Qué es la Recursividad?</h2>
+      <p>En términos simples, la recursividad ocurre cuando algo se define en términos de sí mismo. Esto puede aplicarse tanto a estructuras físicas como a procesos lógicos. Un sistema recursivo está compuesto por partes que se parecen al sistema completo.</p>
+      
+      <h4>Características clave de la recursividad:</h4>
+      <ul>
+        <li><strong>Autosemejanza:</strong> La estructura general se repite a diferentes niveles.</li>
+        <li><strong>Jerarquía:</strong> Los subsistemas tienen relaciones definidas con el sistema principal.</li>
+        <li><strong>Repetición:</strong> Los patrones se replican a medida que se desciende en la jerarquía.</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>🌳 Ejemplos de Recursividad</h2>
+      <ul>
+        <li>
+          <strong>Organigrama Jerárquico:</strong>
+          <p>Un organigrama organizacional es un claro ejemplo de recursividad:</p>
+          <ul>
+            <li>El nivel más alto representa a la organización completa.</li>
+            <li>Cada departamento tiene subdepartamentos que replican la estructura general.</li>
+            <li>Los roles dentro de cada subdepartamento cumplen funciones similares a las del sistema principal.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Procesos en Programación:</strong>
+          <p>La recursividad también se observa en algoritmos que llaman a sí mismos:</p>
+          <pre>
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))  # Salida: 120
+          </pre>
+        </li>
+        <li>
+          <strong>Ecosistemas Naturales:</strong>
+          <p>Un ecosistema es un sistema completo que contiene subsistemas como comunidades de especies:</p>
+          <ul>
+            <li>Cada comunidad contiene individuos que interactúan entre sí, replicando el comportamiento del ecosistema general.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>🏢 Aplicaciones en Organizaciones</h2>
+      <ul>
+        <li>
+          <strong>Jerarquías Organizacionales:</strong>
+          <p>En las empresas, cada nivel jerárquico delega funciones a subniveles que replican los objetivos generales.</p>
+          <p><strong>Ejemplo:</strong> Un gerente de ventas establece metas para los supervisores, quienes las distribuyen a sus equipos de ventas.</p>
+        </li>
+        <li>
+          <strong>Procesos Operativos:</strong>
+          <p>Las tareas dentro de un proceso a menudo contienen subtareas que replican las funciones generales.</p>
+          <p><strong>Ejemplo:</strong> Un sistema de producción donde cada etapa tiene pasos que reflejan los objetivos del sistema completo.</p>
+        </li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>🎯 Actividades Prácticas</h2>
+      <ol>
+        <li>
+          <strong>Identificar Recursividad:</strong>
+          <p>Analiza la estructura jerárquica de una organización o un proyecto que conozcas.</p>
+          <p>Dibuja un diagrama que muestre cómo los subsistemas reflejan el sistema completo.</p>
+        </li>
+        <li>
+          <strong>Simular Recursividad:</strong>
+          <p>En grupos, define un proyecto grande y divídelo en tareas más pequeñas. Identifica patrones similares entre las partes y el todo.</p>
+        </li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>🤔 Reflexiones</h2>
+      <ul>
+        <li>¿Por qué crees que la recursividad es importante para analizar sistemas organizacionales?</li>
+        <li>En tu experiencia, ¿puedes identificar algún ejemplo de recursividad en tu entorno?</li>
+        <li>¿Qué ventajas y desventajas ves en los sistemas recursivos?</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section class="resources">
+      <h2>📖 Recursos Adicionales</h2>
+      <ul>
+        <li><strong>Lecturas:</strong>
+          <a href="https://example.com" target="_blank">Thinking in Systems - Donella Meadows</a>
+          <a href="https://example.com" target="_blank">The Recursive Universe - William Poundstone</a>
+        </li>
+        <li><strong>Videos:</strong>
+          <a href="https://example.com" target="_blank">Recursividad explicada con ejemplos (YouTube)</a>
+          <a href="https://example.com" target="_blank">La recursividad en la naturaleza y las organizaciones (YouTube)</a>
+        </li>
+        <li><strong>Herramientas:</strong>
+          <a href="https://www.lucidchart.com/" target="_blank">Lucidchart - Creación de diagramas jerárquicos</a>
+          <a href="https://www.python.org/" target="_blank">Python - Ejercicios prácticos de recursividad</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
+
+
