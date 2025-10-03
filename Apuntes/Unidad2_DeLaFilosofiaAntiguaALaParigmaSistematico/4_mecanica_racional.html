@@ -1,175 +1,77 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paradigma Cartesiano y Mecánica Racional - Sistemas y Organizaciones</title>
-    <style>
-      body { font-family: Arial, sans-serif; background-color: #f8f9fa; color: #2c3e50; padding: 20px; }
-      h1, h2, h3 { color: #34495e; }
-      a { color: #2980b9; text-decoration: none; }
-      a:hover { text-decoration: underline; }
-      ul { margin-left: 20px; }
-      li { margin-bottom: 10px; }
-      .resources a { display: block; margin: 5px 0; }
-      blockquote { border-left: 4px solid #2980b9; padding: 10px 14px; background: #ecf5fb; border-radius: 8px; font-style: italic; }
-      .tag { display:inline-block; padding:4px 10px; border:1px solid #dfe6e9; border-radius:999px; background:#ffffff; margin:2px 6px 2px 0; font-size: .85rem; color:#34495e; }
-      .muted { color:#6b7280; }
-      header p { max-width: 1000px; }
-      section { max-width: 1000px; }
-      hr { border:0; height:1px; background:#e5e7eb; margin:24px 0; }
-      code, pre { background:#ffffff; border:1px solid #e5e7eb; border-radius:8px; padding:2px 6px; }
-      pre { padding:12px; overflow:auto }
-    </style>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>📚 El Paradigma Cartesiano y la Mecánica Racional</h1>
-      <p class="muted">Apunte orientado a <strong>Sistemas y Organizaciones</strong>, siguiendo el enfoque de <strong>Ángel A. Sarabia</strong>. Se amplía el desarrollo con los <strong>4 preceptos del método cartesiano</strong> y el rol central de la <strong>estructura</strong> con ejemplos matemáticos.</p>
-    </header>
+<h2>🧱 La <u>estructura</u> como idea fundamental: ejemplos matemáticos</h2>
+<p>Para el enfoque mecanicista, una organización es un conjunto de piezas conectadas. Matemáticamente, la <strong>estructura</strong> determina el comportamiento del sistema.</p>
 
-    <section id="introduccion">
-      <h2>🧭 Introducción</h2>
-      <p>El <strong>paradigma cartesiano</strong> (René Descartes, s. XVII) y la <strong>mecánica racional</strong> (Galileo, Newton) dieron a la ciencia un modo de conocer basado en el análisis, la precisión y la predicción. Trasladado a la administración, inspiró estructuras <em>mecanicistas</em>: división del trabajo, jerarquía, estandarización y control.</p>
-      <div>
-        <span class="tag">análisis</span>
-        <span class="tag">predicción</span>
-        <span class="tag">control</span>
-        <span class="tag">eficiencia</span>
-      </div>
-    </section>
 
-    <section id="cartesiano">
-      <h2>🧩 Paradigma Cartesiano</h2>
-      <p>Cuatro rasgos centrales que impactan directamente en la gestión organizacional:</p>
-      <h3>1) Reduccionismo</h3>
-      <p>Lo complejo se comprende descomponiéndolo en partes simples. <strong>En S&O:</strong> departamentos, puestos, tareas elementales; manuales y procedimientos para cada función.</p>
-      <h3>2) Mecanicismo</h3>
-      <p>El mundo funciona como una máquina compuesta de piezas. <strong>En S&O:</strong> organigramas estables; coordinación mediante reglas; personas como “engranajes” intercambiables.</p>
-      <h3>3) Determinismo</h3>
-      <p>A mismas causas, mismos efectos. <strong>En S&O:</strong> si definimos condiciones iniciales (procesos, tiempos estándar), se anticipan resultados; énfasis en <em>planificación y control</em>.</p>
-      <h3>4) Racionalismo</h3>
-      <p>Primacía de la razón y el método lógico. <strong>En S&O:</strong> decisiones basadas en normas, indicadores y cálculos de eficiencia.</p>
-      <blockquote>“El paradigma cartesiano y la mecánica racional dieron la ilusión de control total, pero también rigidizaron las estructuras que hoy deben repensarse.” — Enfoque de cátedra inspirado en Sarabia</blockquote>
-    </section>
+<h3>A) Composición de funciones (pipeline de procesos)</h3>
+<p>Un proceso encadenado puede representarse como <code>y = f(g(h(x)))</code>. La salida depende del orden y del diseño de cada etapa.</p>
+<ul>
+<li><strong>En S&O:</strong> compras → producción → control de calidad → despacho. Cambiar el orden cambia resultados y tiempos.</li>
+<li><strong>Ejemplo:</strong> si <code>h(x)=x+1</code>, <code>g(x)=2x</code> y <code>f(x)=x^2</code>, entonces <code>f(g(h(x))) = (2(x+1))^2 = 4x^2 + 8x + 4</code>. La estructura (orden) altera el resultado.</li>
+</ul>
 
-    <section id="preceptos">
-      <h2>📐 Los 4 preceptos del método cartesiano (Discurso del método)</h2>
-      <p>Descartes formula cuatro reglas para dirigir bien la razón. Aquí están, alineadas con <em>Sistemas y Organizaciones</em> y con mini ejemplos matemáticos.</p>
 
-      <h3>1) Precepto de evidencia (claridad y distinción)</h3>
-      <ul>
-        <li><strong>Enunciado:</strong> no admitir como verdadero nada que no se presente con claridad y distinción.</li>
-        <li><strong>En S&O:</strong> definir con precisión conceptos y métricas: qué es un <em>defecto</em>, <em>reproceso</em>, <em>lead time</em>, el período de medición y la unidad.</li>
-        <li><strong>Ejemplo matemático:</strong> fijar claramente <code>R = piezas_rechazadas / piezas_inspeccionadas</code> y el intervalo (p.ej., por turno). Sin definiciones claras, la métrica es ambigua.</li>
-      </ul>
-
-      <h3>2) Precepto reduccionista (análisis: dividir el problema)</h3>
-      <ul>
-        <li><strong>Enunciado:</strong> dividir cada dificultad en tantas partes como sea posible y sean necesarias para su resolución.</li>
-        <li><strong>En S&O:</strong> descomponer procesos en subprocesos y tareas; asignar responsables por componente; SOP por etapa.</li>
-        <li><strong>Ejemplos matemáticos:</strong>
-          <ul>
-            <li><em>Factorización:</em> <code>x^2 - 1 = (x - 1)(x + 1)</code> simplifica el análisis de raíces.</li>
-            <li><em>Descomposición LU:</em> si <code>A = L·U</code>, resolver <code>A x = b</code> se reduce a <code>L y = b</code> y luego <code>U x = y</code>, sistemas triangulares más simples y estables.</li>
-          </ul>
-        </li>
-      </ul>
-
-      <h3>3) Precepto causalista (síntesis/orden: de lo simple a lo complejo)</h3>
-      <ul>
-        <li><strong>Enunciado:</strong> conducir por orden los pensamientos, comenzando por los objetos más simples y ascendiendo gradualmente a los más complejos, <em>suponiendo un orden</em> donde no es evidente.</li>
-        <li><strong>En S&O:</strong> secuenciar el trabajo y el aprendizaje organizacional: primero lo básico (estándares), luego integración (cross‑functional), después optimización.</li>
-        <li><strong>Ejemplos matemáticos:</strong>
-          <ul>
-            <li><em>Modelado incremental:</em> empezar con <code>y = a x + b</code>; sólo añadir términos (p.ej., <code>y = a x + b + c x^2</code>) si mejoran el ajuste validado (R² ajustada, AIC) para evitar sobreajuste.</li>
-            <li><em>Diferencias/quebrados simples a complejos:</em> partir de <code>y_{t+1} = a y_t + b</code> (lineal, estable si |a| &lt; 1) y luego incorporar estacionalidad o interacción (<code>y_{t+1} = a y_t + b + c y_{t-s}</code>) sólo cuando la evidencia lo justifica.</li>
-          </ul>
-        </li>
-      </ul>
-
-      <h3>4) Precepto de exhaustividad (enumeración y revisión)</h3>
-      <ul>
-        <li><strong>Enunciado:</strong> hacer recuentos tan completos y revisiones tan generales que se esté seguro de no omitir nada.</li>
-        <li><strong>En S&O:</strong> checklists, auditorías de proceso, cobertura de casos; cierre del ciclo PDCA (Plan‑Do‑Check‑Act).</li>
-        <li><strong>Ejemplos matemáticos:</strong>
-          <ul>
-            <li><em>Probabilidad:</em> verificar completitud: <code>∑ p_i = 1</code>.</li>
-            <li><em>Pruebas por casos:</em> cubrir <code>x &lt; 0</code>, <code>x = 0</code>, <code>x &gt; 0</code> para funciones definidas a trozos.</li>
-            <li><em>Restricciones:</em> en un PL verificar que todas las restricciones activas/inactivas están consideradas al evaluar el óptimo.</li>
-          </ul>
-        </li>
-      </ul>
-
-      <blockquote>Nota clave (enfoque Sarabia): el principio de causalidad conecta método y organización: <strong>la estructura es causa de la función</strong>. En organizaciones, el “orden” que imponemos (estructura) condiciona el comportamiento y los resultados.</blockquote>
-    </section>
-
-    <section id="estructura">
-      <h2>🧱 La <u>estructura</u> como idea fundamental: ejemplos matemáticos</h2>
-      <p>Para el enfoque mecanicista, una organización es un conjunto de piezas conectadas. Matemáticamente, la <strong>estructura</strong> determina el comportamiento del sistema.</p>
-
-      <h3>A) Composición de funciones (pipeline de procesos)</h3>
-      <p>Un proceso encadenado puede representarse como <code>y = f(g(h(x)))</code>. La salida depende del orden y del diseño de cada etapa.</p>
-      <ul>
-        <li><strong>En S&O:</strong> compras → producción → control de calidad → despacho. Cambiar el orden cambia resultados y tiempos.</li>
-        <li><strong>Ejemplo:</strong> si <code>h(x)=x+1</code>, <code>g(x)=2x</code> y <code>f(x)=x^2</code>, entonces <code>f(g(h(x))) = (2(x+1))^2 = 4x^2 + 8x + 4</code>. La estructura (orden) altera el resultado.</li>
-      </ul>
-
-      <h3>B) Matrices y flujos (modelos lineales de proceso)</h3>
-      <p>La dinámica <code>x_{t+1} = A x_t</code> muestra cómo la estructura de <code>A</code> (sus ceros y su forma) impone dependencias.</p>
-      <pre>A = [ 0.7  0.2 ]
-    [ 0.0  0.8 ]
+<h3>B) Matrices y flujos (modelos lineales de proceso)</h3>
+<p>La dinámica <code>x_{t+1} = A x_t</code> muestra cómo la estructura de <code>A</code> (sus ceros y su forma) impone dependencias.</p>
+<pre>A = [ 0.7 0.2 ]
+[ 0.0 0.8 ]
 // Etapa 1 (x₁) depende de sí misma y un poco de la etapa 2; la etapa 2 sólo de sí misma.</pre>
-      <ul>
-        <li><strong>Determinismo:</strong> si el radio espectral de <code>A</code> &lt; 1, el sistema converge (previsibilidad). En el ejemplo, ambas diagonales &lt; 1 → converge.</li>
-        <li><strong>Secuencialidad:</strong> si <code>A</code> es triangular, hay un orden natural de cálculo (primero abajo, luego arriba), análogo a una jerarquía.</li>
-      </ul>
+<ul>
+<li><strong>Determinismo:</strong> si el radio espectral de <code>A</code> &lt; 1, el sistema converge (previsibilidad). En el ejemplo, ambas diagonales &lt; 1 → converge.</li>
+<li><strong>Secuencialidad:</strong> si <code>A</code> es triangular, hay un orden natural de cálculo (primero abajo, luego arriba), análogo a una jerarquía.</li>
+</ul>
 
-      <h3>C) Grafos y jerarquías</h3>
-      <p>Un organigrama es un <strong>árbol</strong>. La <em>altura</em> del árbol ≈ capas de decisión. Costos de coordinación crecen con la altura.</p>
-      <ul>
-        <li><strong>Resultado práctico:</strong> a menor altura (estructura más plana), menor tiempo de respuesta; pero aumenta el <em>span of control</em> del jefe y la carga de coordinación.</li>
-        <li><strong>Ejemplo:</strong> el tiempo de aprobación puede modelarse como <code>T = k · h</code> (proporcional a la altura <code>h</code>). Reducir <code>h</code> acorta <code>T</code>.</li>
-      </ul>
 
-      <h3>D) Restricciones y factibilidad (programación lineal)</h3>
-      <p>El conjunto factible <code>{ x | A x \le b, x \ge 0 }</code> es una <strong>estructura geométrica</strong> (poliedro). La estructura de <code>A</code> define qué combinaciones de actividades son posibles.</p>
-      <ul>
-        <li><strong>En S&O:</strong> asignación de horas-máquina y materias primas. El óptimo <code>max c^T x</code> depende de esas restricciones.</li>
-        <li><strong>Lectura:</strong> cambiar una fila de <code>A</code> (nueva restricción) reconfigura la región factible y el plan óptimo.</li>
-      </ul>
-    </section>
+<h3>C) Grafos y jerarquías</h3>
+<p>Un organigrama es un <strong>árbol</strong>. La <em>altura</em> del árbol ≈ capas de decisión. Costos de coordinación crecen con la altura.</p>
+<ul>
+<li><strong>Resultado práctico:</strong> a menor altura (estructura más plana), menor tiempo de respuesta; pero aumenta el <em>span of control</em> del jefe y la carga de coordinación.</li>
+<li><strong>Ejemplo:</strong> el tiempo de aprobación puede modelarse como <code>T = k · h</code> (proporcional a la altura <code>h</code>). Reducir <code>h</code> acorta <code>T</code>.</li>
+</ul>
 
-    <section id="mecanica">
-      <h2>⚙️ Mecánica Racional</h2>
-      <p>La mecánica racional concibe el universo regido por <strong>leyes universales</strong>, <strong>previsibilidad</strong> y <strong>orden</strong>:</p>
-      <ul>
-        <li><strong>Universalidad:</strong> reglas que valen en todo contexto → “buenas prácticas”.</li>
-        <li><strong>Previsibilidad:</strong> conocidas las condiciones, se predicen resultados → <em>KPIs</em>, tiempos y estándares.</li>
-        <li><strong>Equilibrio/estabilidad:</strong> si se respetan las reglas, el sistema se mantiene estable.</li>
-      </ul>
-      <p><strong>En gestión:</strong> planificación, control, optimización de recursos y maximización de la eficiencia.</p>
-    </section>
 
-    <section id="cierre">
-      <h2>✅ Conclusión</h2>
-      <p>Los <strong>4 preceptos</strong> dotan de método: definir con claridad (evidencia), descomponer (análisis), ordenar (síntesis) y verificar (enumeración). El énfasis en la <strong>estructura</strong> —funciones, matrices, grafos, restricciones— explica por qué el paradigma mecanicista fue tan eficaz en contextos estables. Sus límites aparecen cuando la estructura debe adaptarse rápidamente: allí los enfoques sistémicos complementan y corrigen.</p>
-    </section>
+<h3>D) Restricciones y factibilidad (programación lineal)</h3>
+<p>El conjunto factible <code>{ x | A x \le b, x \ge 0 }</code> es una <strong>estructura geométrica</strong> (poliedro). La estructura de <code>A</code> define qué combinaciones de actividades son posibles.</p>
+<ul>
+<li><strong>En S&O:</strong> asignación de horas-máquina y materias primas. El óptimo <code>max c^T x</code> depende de esas restricciones.</li>
+<li><strong>Lectura:</strong> cambiar una fila de <code>A</code> (nueva restricción) reconfigura la región factible y el plan óptimo.</li>
+</ul>
+</section>
 
-    <hr />
 
-    <section class="resources">
-      <h3>📖 Recursos Adicionales</h3>
-      <ul>
-        <li><a href="../../libros_interes/la_teoria_general_de_sistemas_ISDEFE_1_.pdf" target="_blank" rel="noopener">La Teoría General de Sistemas — Ángel A. Sarabia (ISDEFE)</a></li>
-        <li><a href="#" target="_blank" rel="noopener">Discurso del método — René Descartes</a></li>
-        <li><a href="#" target="_blank" rel="noopener">Philosophiæ Naturalis Principia Mathematica — I. Newton</a></li>
-        <li><a href="#" target="_blank" rel="noopener">Principios de la Administración Científica — F. W. Taylor</a></li>
-        <li><a href="#" target="_blank" rel="noopener">Administración Industrial y General — H. Fayol</a></li>
-        <li><a href="#" target="_blank" rel="noopener">Economía y Sociedad — M. Weber</a></li>
-      </ul>
-    </section>
+<section id="mecanica">
+<h2>⚙️ Mecánica Racional</h2>
+<p>La mecánica racional concibe el universo regido por <strong>leyes universales</strong>, <strong>previsibilidad</strong> y <strong>orden</strong>:</p>
+<ul>
+<li><strong>Universalidad:</strong> reglas que valen en todo contexto → “buenas prácticas”.</li>
+<li><strong>Previsibilidad:</strong> conocidas las condiciones, se predicen resultados → <em>KPIs</em>, tiempos y estándares.</li>
+<li><strong>Equilibrio/estabilidad:</strong> si se respetan las reglas, el sistema se mantiene estable.</li>
+</ul>
+<p><strong>En gestión:</strong> planificación, control, optimización de recursos y maximización de la eficiencia.</p>
+</section>
 
-  </body>
+
+<section id="cierre">
+<h2>✅ Conclusión</h2>
+<p>Los <strong>4 preceptos</strong> dotan de método: definir con claridad (evidencia), descomponer (análisis), ordenar (síntesis) y verificar (enumeración). El énfasis en la <strong>estructura</strong> —funciones, matrices, grafos, restricciones— explica por qué el paradigma mecanicista fue tan eficaz en contextos estables. Sus límites aparecen cuando la estructura debe adaptarse rápidamente: allí los enfoques sistémicos complementan y corrigen.</p>
+</section>
+
+
+<hr />
+
+
+<section class="resources">
+<h3>📖 Recursos Adicionales</h3>
+<ul>
+<li><a href="../../libros_interes/la_teoria_general_de_sistemas_ISDEFE_1_.pdf" target="_blank" rel="noopener">La Teoría General de Sistemas — Ángel A. Sarabia (ISDEFE)</a></li>
+<li><a href="#" target="_blank" rel="noopener">Discurso del método — René Descartes</a></li>
+<li><a href="#" target="_blank" rel="noopener">Philosophiæ Naturalis Principia Mathematica — I. Newton</a></li>
+<li><a href="#" target="_blank" rel="noopener">Principios de la Administración Científica — F. W. Taylor</a></li>
+<li><a href="#" target="_blank" rel="noopener">Administración Industrial y General — H. Fayol</a></li>
+<li><a href="#" target="_blank" rel="noopener">Economía y Sociedad — M. Weber</a></li>
+</ul>
+</section>
+
+
+</body>
 </html>
