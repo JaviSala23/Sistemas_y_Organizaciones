@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Teoría del Caos y los Sistemas Dinámicos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #fdfdfd;
+      color: #1e293b;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem 1.5rem;
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+    h1, h2, h3 {
+      color: #0f172a;
+    }
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.5rem;
+    }
+    h2 {
+      margin-top: 1.8rem;
+      border-left: 4px solid #3b82f6;
+      padding-left: 0.5rem;
+      font-size: 1.35rem;
+    }
+    h3 {
+      margin-top: 1rem;
+      color: #334155;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+    }
+    th, td {
+      border: 1px solid #e2e8f0;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: #f1f5f9;
+    }
+    pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    code {
+      background: #f1f5f9;
+      padding: 0.15rem 0.3rem;
+      border-radius: 4px;
+    }
+    blockquote {
+      border-left: 4px solid #94a3b8;
+      color: #475569;
+      padding-left: 1rem;
+      margin-left: 0;
+      font-style: italic;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #64748b;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({ startOnLoad: true, theme: "default" });</script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌪️ La Teoría del Caos y los Sistemas Dinámicos</h1>
+    <p>La <b>Teoría del Caos</b> surge a mediados del siglo XX como una rama de la matemática y la física que estudia el comportamiento de sistemas <b>no lineales</b>, es decir, aquellos en los que <b>pequeños cambios en las condiciones iniciales pueden generar grandes diferencias en los resultados</b>.</p>
+    <p>Esta teoría transformó la forma de entender la ciencia, reemplazando la idea clásica de que todo sistema es predecible por una visión más <b>realista, compleja e interdependiente</b> del mundo.</p>
+    <p>Su estudio llevó a una nueva comprensión de los <b>sistemas dinámicos</b>, aquellos que evolucionan con el tiempo y cuyos estados dependen unos de otros a través de relaciones de causa y efecto.</p>
+    <h2>¿Qué es un sistema dinámico?</h2>
+    <p>Un <b>sistema dinámico</b> es un conjunto de elementos interrelacionados que cambian con el tiempo siguiendo ciertas reglas.</p>
+    <ul>
+      <li>El clima.</li>
+      <li>La economía de un país.</li>
+      <li>Una organización empresarial.</li>
+      <li>La población de una especie animal.</li>
+    </ul>
+    <p>Los sistemas dinámicos suelen tener <b>retroalimentaciones</b> (positivas y negativas) que los hacen sensibles y adaptativos, pudiendo generar comportamientos <b>estables, inestables o caóticos</b>.</p>
+    <h2>Conceptos clave de la teoría del caos</h2>
+    <h3>No linealidad</h3>
+    <p>Un sistema <b>no lineal</b> es aquel en el que los efectos no son proporcionales a las causas. Ejemplo: duplicar la inversión en una economía no garantiza duplicar las ganancias.</p>
+    <h3>Sensibilidad a las condiciones iniciales</h3>
+    <blockquote>“El aleteo de una mariposa en Brasil puede provocar un tornado en Texas.” — Edward Lorenz, 1963</blockquote>
+    <p>Un pequeño cambio inicial puede generar una trayectoria completamente distinta en el sistema.</p>
+    <h3>Atractores</h3>
+    <p>Un <b>atractor</b> es un estado o conjunto de estados hacia donde el sistema tiende a evolucionar:</p>
+    <ul>
+      <li><b>Puntual:</b> equilibrio.</li>
+      <li><b>Periódico:</b> ciclos.</li>
+      <li><b>Caótico:</b> patrón impredecible pero determinado.</li>
+    </ul>
+    <h3>Fractales</h3>
+    <p>Estructuras que se repiten a diferentes escalas (autosimilaridad). Ejemplo: la forma de una costa o el crecimiento de una planta.</p>
+    <h2>Aplicaciones</h2>
+    <table>
+      <tr><th>Campo</th><th>Ejemplo</th><th>Implicancia</th></tr>
+      <tr><td>Meteorología</td><td>Modelos del clima</td><td>Los pronósticos tienen límites.</td></tr>
+      <tr><td>Economía</td><td>Fluctuaciones bursátiles</td><td>Los mercados pueden ser caóticos.</td></tr>
+      <tr><td>Biología</td><td>Crecimiento poblacional</td><td>Las poblaciones pueden oscilar.</td></tr>
+      <tr><td>Organizaciones</td><td>Cultura y cambio</td><td>Pequeñas decisiones pueden transformar todo el sistema.</td></tr>
+    </table>
+    <h2>Relación entre Caos, Orden y Complejidad</h2>
+    <blockquote>“Detrás del desorden existe una estructura.” — Ilya Prigogine</blockquote>
+    <p>El caos no es desorden: revela un orden oculto. Los sistemas caóticos son deterministas pero impredecibles, y muestran autoorganización.</p>
+    <h2>Diagrama sistémico simple</h2>
+    <pre class="mermaid">
+graph TD
+  A[Condiciones iniciales] --> B[Pequeños cambios]
+  B --> C[Efectos amplificados]
+  C --> D[Comportamiento impredecible]
+  D --> E[Autoorganización del sistema]
+  E --> A
+  style C fill:#ffe6cc,stroke:#ff6600,stroke-width:2px;
+  style D fill:#fff3cc,stroke:#d97706,stroke-width:2px;
+    </pre>
+    <h2>Conclusión</h2>
+    <p>La Teoría del Caos y los Sistemas Dinámicos enseñan que la realidad no es lineal ni perfectamente predecible, sino compleja, interdependiente y sensible. Aplicada a las organizaciones y la economía, ayuda a comprender crisis, fluctuaciones, autoorganización y adaptación.</p>
+    <div class="footer">Apunte — Sistemas y Organizaciones</div>
+  </div>
+</body>
+</html>
